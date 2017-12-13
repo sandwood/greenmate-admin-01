@@ -309,7 +309,7 @@
 									<span class="qr_seller">관리자: ` + qr_seller + `</span>
 								</li>
 						`);
-					$('#qr_' + qr_array[i] + `_` + i).qrcode(qr_array[i]);
+					$('#qr_' + qr_array[i] + `_` + i).qrcode({text: qr_array[i]});
 				}
 			}
 
